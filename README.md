@@ -1,8 +1,8 @@
-# Food Finder
+# Eatr
 
 ## Overview
 
-Food Finder is a full-stack application that allows users to:
+Eatr is a full-stack application that allows users to:
 
 - Search for nearby restaurants using the Google Places API.
 - Generate restaurant orders using the OpenAI API.

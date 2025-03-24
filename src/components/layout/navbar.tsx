@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
+import React from "react";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
@@ -8,16 +8,25 @@ export function Navbar() {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-6">
           <Link href="/" className="flex items-center space-x-2">
-            <span className="inline-block font-bold text-xl">Food Finder</span>
+            <span className="inline-block font-bold text-xl">Eatr</span>
           </Link>
           <nav className="hidden md:flex gap-6">
-            <Link href="/" className="text-sm font-medium transition-colors hover:text-primary">
+            <Link
+              href="/"
+              className="text-sm font-medium transition-colors hover:text-primary"
+            >
               Find Food
             </Link>
-            <Link href="/history" className="text-sm font-medium transition-colors hover:text-primary">
+            <Link
+              href="/history"
+              className="text-sm font-medium transition-colors hover:text-primary"
+            >
               Order History
             </Link>
-            <Link href="/profile" className="text-sm font-medium transition-colors hover:text-primary">
+            <Link
+              href="/profile"
+              className="text-sm font-medium transition-colors hover:text-primary"
+            >
               Profile
             </Link>
           </nav>
