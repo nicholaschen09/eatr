@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export function Navbar() {
   return (
@@ -23,19 +22,14 @@ export function Navbar() {
             >
               Order History
             </Link>
-            <Link
-              href="/profile"
-              className="text-sm font-medium transition-colors hover:text-primary"
-            >
-              Profile
-            </Link>
           </nav>
         </div>
-        <div className="flex items-center gap-2">
-          <Link href="/profile">
-            <Button variant="outline" size="sm">
-              Profile
-            </Button>
+        <div className="flex justify-end">
+          <Link
+            href="/profile"
+            className="text-sm font-medium transition-colors hover:text-primary"
+          >
+            Profile
           </Link>
         </div>
       </div>
