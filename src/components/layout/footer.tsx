@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container flex flex-col items-center justify-between gap-4 md:flex-row">
         <div className="flex flex-col items-center gap-4 md:flex-row md:gap-6">
           <Link href="/" className="font-bold">
-            FoodNearMe
+            Eatr
           </Link>
           <nav className="flex flex-wrap gap-4 md:gap-6">
             <Link
