@@ -52,7 +52,7 @@ export class RestaurantService {
       vicinity: place.vicinity,
       types: place.types,
       photos: place.photos?.map(photo => ({
-        photo_reference: photo.photo_reference || '',
+        photo_reference: photo.getUrl ? photo.getUrl({ maxWidth: photo.width }) : '',
         width: photo.width,
         height: photo.height,
       })),
